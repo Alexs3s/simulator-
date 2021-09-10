@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.hed{
+    display: block;
+    height: 10%;
+   text-align:center;
+   margin: 5%;
+   color: rgb(18, 18, 97);
+}
+.wrap{
+    padding-left: 10%;
+}
+
+.flexss{
+    display: flex;
+    justify-content: start;
+    grid-gap:1rem;
+    align-content: center;
+}
+.sadm{
+   padding: 0 1rem; 
+   background-color: rgb(124, 124, 214);
+   color: #fff;
+   border-radius: 7px;
+}
+.in{
+    font-size: 1.5rem;
+
+}
+.aut{
+    margin-top: 20px;
+}
+.coll{
+color: rgb(218, 19, 19);
+}
+.coll {
+    border: 2px red solid;
+      }
+    .sadm:after {
+        content: attr(data-txt);  }
